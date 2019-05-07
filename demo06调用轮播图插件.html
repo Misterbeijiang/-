@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		#box1{
+			width: 400px;
+			height: 300px;
+			border:1px solid pink; 
+		}
+		#box2{
+			width: 600px;
+			height: 200px;
+			border:1px solid skyblue; 
+		}
+	</style>
+</head>
+<body>
+	<!--相当于插件的插孔-->
+	<div id="box1">
+		
+	</div>
+	<br/>
+	<br/>
+	<br/>
+
+	<!--相当于插件的插孔-->
+	<div id="box2">
+		
+	</div>
+</body>
+</html>
+<script type="text/javascript" src="js/mover.js"></script>
+<script type="text/javascript" src="js/bannerPic.js"></script>
+<script type="text/javascript">
+window.onload = function(){
+    new BannerPic({
+			"boxDom":$("#box1"),//轮播图的容器
+			"imgs":["img/1.jpg","img/2.jpg","img/3.jpg","img/4.jpg","img/5.jpg"],
+			"doudouDirection":"下",			
+			"timeSpace":3000			
+		});
+
+
+    new BannerPic({
+			"boxDom":$("#box2"),//轮播图的容器
+			"imgs":["img/3.jpg","img/4.jpg","img/5.jpg"],
+			"doudouDirection":"上"			
+		});
+}	
+
+function $(str){//#box .cls  p
+	if(str.charAt(0)=="#"){
+		return document.getElementById(str.substring(1));
+	}else if(str.charAt(0)=="."){
+		return document.getElementsByClassName(str.substring(1));
+	}else{
+		return document.getElementsByTagName(str);
+	}
+}
+	
+</script>

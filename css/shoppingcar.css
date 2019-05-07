@@ -1,0 +1,57 @@
+/* body部分 */
+.content{
+    clear: both;
+    width: 990px;
+    margin: 0 auto;
+    margin-top: 138px;
+}
+.tb-header{
+    padding: 20px 0 40px;
+    position: relative;
+    height: 35px
+}
+.tb-header a{
+
+}
+.header_img{
+    background: url(../img/tabe.png) no-repeat -9999px -9999px;
+    background-image: -webkit-image-set(url(../img/tabe.png) 1x,url(../img/tabe.png) 2x);
+    display: block;
+    width: 181px;
+    height: 45px;
+    overflow: hidden;
+    background-position: -110px 0;
+    background-color: #fff;
+    position: absolute;
+    top:0;
+    left: 0; 
+}        
+.search-panel,.search-button,.search-panel-fields{
+    position: relative;
+    z-index: 1;
+    float: right;
+    background: #fff;
+}
+.search-panel-fields{
+    height: 35px;
+    background: #f50;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.search-combobox-input{
+    font-size: 100%;
+    margin-left: 79px;
+    vertical-align: middle;
+    padding: 5px 0;
+    border: 0;
+    margin-top: 5.5px;
+    /* line-height: 35px; */
+}
+.btn-search{
+    background: url(../img/suo001.png);
+    background-image: -webkit-image-set(url(../img/suo001.png) 1x,url(../img/suo002.png) 2x);
+    background-repeat: no-repeat;
+    background-position: 0 -204px;
+    height: 35px;
+    width: 93px; 
+}

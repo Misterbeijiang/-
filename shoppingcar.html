@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript" src="js/mover.js"></script>
+    <script type="text/javascript" src="js/bannerPic.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/public.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/shoppingcar.css">
+    <title>购物车</title>
+</head>
+<body>
+    <!-- nav部分 -->
+    <div class="pdd_nav">
+            <div class="pdd-nav">
+                <ul class="pdd_nav_ul">
+                    <li class="pdd-nav-left">
+                        <div class="site-nav-menu-hd">
+                            <span class="site-nav-region">中国大陆</span>
+                            <span class="site-nav-arrow">
+                                <span class="iconfont icon-bottom"></span>
+                            </span>
+                        </div>
+                        <div class="site-nav-menu-list">
+                            <ul class="site-nav-menu-ul">
+                                <li>全球</li>
+                                <li>中国大陆</li>
+                                <li>香港</li>
+                                <li>台湾</li>
+                                <li>澳门</li>
+                                <li>韩国</li>
+                                <li>马来西亚</li>
+                                <li>澳大利亚</li>
+                                <li>新加坡</li>
+                                <li>新西兰</li>
+                                <li>加拿大</li>
+                                <li>美国</li>
+                                <li>日本</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="pdd-nav-width">
+                        <div class="site-nav-menu-hd">
+                            <a href="file:///D:/phpStudy/WWW/pdd/Land.html" class="site_nav_menu_bd">亲，请登陆</a>
+                            <a href="https://reg.taobao.com/member/reg/fill_mobile.htm">免费注册</a>
+                        </div>
+                    </li>
+                    <li class="site-nav-menu">
+                        <div class="site-nav-menu-hd">
+                            <a href="https://mpage.taobao.com/hd/download.html?spm=a21bo.2017.1997563273.1.5af911d9VuRjqw" target="_top">
+                                <span>手机逛淘宝</span>
+                            </a>
+                        </div>
+                    </li>
+
+                </ul>
+                <ul class="pdd_nav_ul_2">
+                    <li class="pdd-nav-right">
+                        <div class="site-nav-menu-hd">
+                            <a href="https://login.taobao.com/member/login.jhtml?from=taobaoindex&f=top&style=&sub=true&redirect_url=https%3A%2F%2Fi.taobao.com%2Fmy_taobao.htm%3Fspm%3Da21bo.2017.1997525045.1.5af911d9U23crz">
+                                <span>我的淘宝</span>
+                            </a>
+                            <span class="site-nav-arrow">
+                                <span class="iconfont icon-bottom"></span>
+                            </span>
+                        </div>
+                        <div class="site-nav-menu-bd-panel menu-bd-panel">
+                            <ul class="site-nav-menu-ul2">
+                                    <a href="file:///D:/phpStudy/WWW/pdd/Land.html">已买到的宝贝</a>
+                                    <a href="file:///D:/phpStudy/WWW/pdd/Land.html">我的足迹</a>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="site-nav-menu-hd">
+                            <a href="file:///D:/phpStudy/WWW/pdd/Land.html">
+                                <span class="iconfont icon-shoppingcart-over"></span>
+                                <span>购物车</span>
+                                <span class="site-nav-arrow">
+                                        <span class="iconfont icon-bottom"></span>
+                                </span>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="pdd-nav-right">
+                        <div class="site-nav-menu-hd">
+                            <a href="file:///D:/phpStudy/WWW/pdd/Land.html">
+                                <span class="iconfont icon-shoucangjia"></span>
+                                <span>收藏夹</span>
+                                <span class="site-nav-arrow">
+                                        <span class="iconfont icon-bottom"></span>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="site-nav-menu-bd-panel menu-bd-panel">
+                                <ul class="site-nav-menu-ul2">
+                                        <a href="file:///D:/phpStudy/WWW/pdd/Land.html">收藏的宝贝</a>
+                                        <a href="file:///D:/phpStudy/WWW/pdd/Land.html">收藏的店铺</a>
+                                </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="site-nav-menu-hd">
+                                <a href="https://www.taobao.com/tbhome/page/market-list?spm=a21bo.2017.1997563209.1.5af911d94tRMeN">
+                                    <span>商品分类</span>
+                                </a>
+                        </div>
+                    </li>
+                    <li class="site-nav-pipe">|</li>
+                    <li class="pdd-nav-right">
+                            <div class="site-nav-menu-hd">
+                                <a href="file:///D:/phpStudy/WWW/pdd/Land.html">
+                                    <span>千牛卖家中心</span>
+                                </a>
+                                <span class="site-nav-arrow">
+                                    <span class="iconfont icon-bottom"></span>
+                                </span>
+                            </div>
+                            <div class="site-nav-menu-bd-panel menu-bd-panel">
+                                <ul class="site-nav-menu-ul2">
+                                    <a href="file:///D:/phpStudy/WWW/pdd/Land.html">免费开店</a>
+                                    <a href="file:///D:/phpStudy/WWW/pdd/Land.html">已卖出的宝贝</a>
+                                    <a href="file:///D:/phpStudy/WWW/pdd/Land.html">出售中的宝贝</a>
+                                    <a href="file:///D:/phpStudy/WWW/pdd/Land.html">卖家服务市场</a>
+                                    <a href="file:///D:/phpStudy/WWW/pdd/Land.html">卖家培训中心</a>
+                                    <a href="file:///D:/phpStudy/WWW/pdd/Land.html">体验中心</a>
+                                    <a href="file:///D:/phpStudy/WWW/pdd/Land.html">问商友</a>
+                                </ul>
+                            </div>
+                        </li>
+                    <li class="pdd-nav-right">
+                        <div class="site-nav-menu-hd">
+                            <a href="https://consumerservice.taobao.com/?spm=a21bo.2017.754895749.1.5af911d9yQXzS4">
+                                <span>联系客服</span>
+                            </a>
+                            <span class="site-nav-arrow">
+                                <span class="iconfont icon-bottom"></span>
+                            </span>
+                        </div>
+                        <div class="site-nav-menu-bd-panel menu-bd-panel">
+                            <ul class="site-nav-menu-ul2">
+                                    <a href="https://consumerservice.taobao.com/online-help?spm=a21bo.2017.754895749.2.5af911d9eghggJ">消费者客服</a>
+                                    <a href="https://helpcenter.taobao.com/index?spm=a21bo.2017.754895749.3.5af911d9ssJce4&from=high">卖家客服</a>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="pdd-nav-right">
+                            <div class="site-nav-menu-hd">
+                                <span class="iconfont icon-wangzhandaohang"></span>
+                                <a href="https://login.taobao.com/member/login.jhtml?from=taobaoindex&f=top&style=&sub=true&redirect_url=https%3A%2F%2Fi.taobao.com%2Fmy_taobao.htm%3Fspm%3Da21bo.2017.1997525045.1.5af911d9U23crz">
+                                    <span>网站导航</span>
+                                </a>
+                                <span class="site-nav-arrow">
+                                    <span class="iconfont icon-bottom"></span>
+                                </span>
+                            </div>
+                            <div class="site-nav-menu-bd">
+                                <div class="site-nav-menu-panel">
+                                    <div class="site-nav-sitemap-mod">
+                                        <div>
+                                            <h4 style="color:#fc4200">主题市场</h4>
+                                        </div>
+                                        <div class="site-nav-sitemap-mod-bd">
+                                            <ul>
+                                                <li style="width: 24%;">
+                                                    <a href="https://www.taobao.com/markets/nvzhuang/taobaonvzhuang?spm=a21bo.2017.754904949.1.5af911d9jTDKGI">
+                                                        女装
+                                                        <i class="hot"></i>
+                                                    </a>
+                                                </li>
+                                                <li style="width: 24%;">
+                                                    <a href="https://www.taobao.com/markets/nanzhuang/2017new?spm=a21bo.50862.201867-main.3.EECMuW">
+                                                        男装
+                                                        <i class="new"></i>
+                                                    </a>
+                                                </li>
+                                                <li style="width: 24%;">
+                                                    <a href="https://neiyi.taobao.com/?spm=a21bo.50862.201867-main.4.5dcec6f7Nn7woQ">
+                                                        内衣
+                                                        <i class="new"></i>
+                                                    </a>	
+                                                </li>
+                                                <li style="width: 24%;">
+                                                    <a href="https://www.taobao.com/markets/xie/nvxie/index?spm=a21bo.50862.201867-main.5.5dcec6f7h8qQMT">
+                                                        鞋靴
+                                                        <i class="new"></i>
+                                                    </a>
+                                                </li>
+                                                <li style="width: 24%;">
+                                                    <a href="https://www.taobao.com/markets/bao/xiangbao">
+                                                        箱包
+                                                    </a>
+                                                </li>
+                                                <li style="width: 24%;">
+                                                    <a href="https://www.taobao.com/markets/qbb/index">
+                                                        婴童
+                                                    </a>
+                                                </li>
+                                                <li style="width: 24%;">
+                                                    <a href="https://www.taobao.com/markets/3c/tbdc?spm=a21bo.2017.201867-main.12.176e11d9q751cK">
+                                                        家电
+                                                    </a>
+                                                </li>
+                                                <li style="width: 24%;">
+                                                    <a href="https://www.taobao.com/markets/3c/tbdc?spm=a21bo.2017.201867-main.12.176e11d9q751cK">
+                                                        数码
+                                                    </a>
+                                                </li>
+                                                <li style="width: 24%;">
+                                                    <a href="https://www.taobao.com/markets/3c/tbdc?spm=a21bo.2017.201867-main.12.176e11d9q751cK">
+                                                        手机
+                                                    </a>
+                                                </li>
+                                                <li style="width: 24%;">
+                                                    <a href="https://mei.taobao.com">
+                                                        美妆
+                                                    </a>
+                                                </li>
+                                                <li style="width: 24%;">
+                                                    <a href="https://www.taobao.com/market/peishi/zhubao.php">
+                                                        珠宝
+                                                    </a>
+                                                </li>
+                                                <li style="width: 24%;">
+                                                    <a href="https://www.taobao.com/market/peishi/yanjing.php">
+                                                        眼镜
+                                                    </a>
+                                                </li>
+                                                <li style="width: 24%;">
+                                                    <a href="https://www.taobao.com/market/peishi/yanjing.php">
+                                                        手表
+                                                    </a>
+                                                </li>
+                                                <li style="width: 24%;">
+                                                    <a href="https://www.taobao.com/market/peishi/yanjing.php">
+                                                        运动
+                                                    </a>
+                                                </li>
+                                                <li style="width: 24%;">
+                                                    <a href="https://www.taobao.com/market/peishi/yanjing.php">
+                                                        户外
+                                                    </a>
+                                                </li>
+                                                <li style="width: 24%;">
+                                                    <a href="https://www.taobao.com/market/peishi/yanjing.php">
+                                                        乐器
+                                                    </a>
+                                                </li>
+                                                <li style="width: 24%;">
+                                                    <a href="https://game.taobao.com">
+                                                        游戏
+                                                    </a>
+                                                </li>
+                                                <li style="width: 24%;">
+                                                    <a href="https://game.taobao.com">
+                                                        动漫
+                                                    </a>
+                                                </li>
+                                                <li style="width: 24%;">
+                                                    <a href="https://game.taobao.com">
+                                                        影视
+                                                    </a>
+                                                </li>
+                                                <li style="width: 24%;">
+                                                    <a href="https://game.taobao.com">
+                                                        美食
+                                                    </a>
+                                                </li>
+                                                <li style="width: 24%;">
+                                                    <a href="https://game.taobao.com">
+                                                        鲜花
+                                                    </a>
+                                                </li>
+                                                <li style="width: 24%;">
+                                                    <a href="https://game.taobao.com">
+                                                        宠物
+                                                    </a>
+                                                </li>
+                                                <li style="width: 24%;">
+                                                    <a href="https://s.taobao.com/search?spm=a21bo.50862.201867-main.31.5dcec6f7Nn7woQ&q=%E5%86%9C%E8%B5%84&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&ie=utf8&initiative_id=tbindexz_20170221">
+                                                        农资
+                                                    </a>
+                                                </li>
+                                                <li style="width: 24%;">
+                                                    <a href="https://fang.taobao.com">
+                                                        房产
+                                                    </a>
+                                                </li>
+                                                <li style="width: 24%;">
+                                                    <a href="https://fang.taobao.com">
+                                                        装修
+                                                    </a>
+                                                </li>
+                                                <li style="width: 24%;">
+                                                    <a href="https://fang.taobao.com">
+                                                        建材
+                                                    </a>
+                                                </li>
+                                                <li style="width: 24%;">
+                                                    <a href="https://fang.taobao.com">
+                                                        家居
+                                                    </a>
+                                                </li>
+                                                <li style="width: 24%;">
+                                                    <a href="https://fang.taobao.com">
+                                                        百货
+                                                    </a>
+                                                </li>
+                                                <li style="width: 24%;">
+                                                    <a href="https://fang.taobao.com">
+                                                        汽车
+                                                    </a>
+                                                </li>
+                                                <li style="width: 24%;">
+                                                    <a href="https://fang.taobao.com">
+                                                        二手车
+                                                    </a>
+                                                </li>
+                                                <li style="width: 24%;">
+                                                    <a href="https://fang.taobao.com">
+                                                        办公
+                                                    </a>
+                                                </li>
+                                                <li style="width: 24%;">
+                                                    <a href="https://fang.taobao.com">
+                                                        定制
+                                                    </a>
+                                                </li>
+                                                <li style="width: 24%;">
+                                                    <a href="https://fang.taobao.com">
+                                                        教育
+                                                    </a>
+                                                </li>
+                                                <li style="width: 24%;">
+                                                    <a href="https://fang.taobao.com">
+                                                        卡卷
+                                                    </a>
+                                                </li>
+                                                <li style="width: 24%;">
+                                                    <a href="https://fang.taobao.com">
+                                                        本地
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="site-nav-sitemap-mod">
+                                        <h4 style="color:#9fb838">特色市场</h4>
+                                        <div class="site-nav-sitemap-mod-bd site-nav-sitemap-mod-bd2">
+                                            <ul>
+                                                <li style="width: 33%;">
+                                                    <a href="https://www.taobao.com/markets/nvzhuang/taobaonvzhuang?spm=a21bo.2017.754904949.1.5af911d9jTDKGI">
+                                                        女装
+                                                    </a>
+                                                </li>
+                                                <li style="width: 33%;">
+                                                    <a href="https://www.taobao.com/markets/nanzhuang/2017new?spm=a21bo.50862.201867-main.3.EECMuW">
+                                                        男装
+                                                    </a>
+                                                </li>
+                                                <li style="width: 33%;">
+                                                    <a href="https://neiyi.taobao.com/?spm=a21bo.50862.201867-main.4.5dcec6f7Nn7woQ">
+                                                        内衣
+                                                    </a>	
+                                                </li>
+                                                <li style="width: 33%;">
+                                                    <a href="https://www.taobao.com/markets/xie/nvxie/index?spm=a21bo.50862.201867-main.5.5dcec6f7h8qQMT">
+                                                        鞋靴
+                                                    </a>
+                                                </li>
+                                                <li style="width: 33%;">
+                                                    <a href="https://www.taobao.com/markets/bao/xiangbao">
+                                                        箱包
+                                                    </a>
+                                                </li>
+                                                <li style="width: 33%;">
+                                                    <a href="https://www.taobao.com/markets/qbb/index">
+                                                        婴童
+                                                    </a>
+                                                </li>
+                                                <li style="width: 33%;">
+                                                    <a href="https://www.taobao.com/markets/3c/tbdc?spm=a21bo.2017.201867-main.12.176e11d9q751cK">
+                                                        家电
+                                                    </a>
+                                                </li>
+                                                <li style="width: 33%;">
+                                                    <a href="https://www.taobao.com/markets/3c/tbdc?spm=a21bo.2017.201867-main.12.176e11d9q751cK">
+                                                        数码
+                                                    </a>
+                                                </li>
+                                                <li style="width: 33%;">
+                                                    <a href="https://www.taobao.com/markets/3c/tbdc?spm=a21bo.2017.201867-main.12.176e11d9q751cK">
+                                                        手机
+                                                    </a>
+                                                </li>
+                                                <li style="width: 33%;">
+                                                    <a href="https://mei.taobao.com">
+                                                        美妆
+                                                    </a>
+                                                </li>
+                                                <li style="width: 33%;">
+                                                    <a href="https://www.taobao.com/market/peishi/zhubao.php">
+                                                        珠宝
+                                                    </a>
+                                                </li>
+                                                <li style="width: 33%;">
+                                                    <a href="https://www.taobao.com/market/peishi/yanjing.php">
+                                                        眼镜
+                                                    </a>
+                                                </li>
+                                                <li style="width: 33%;">
+                                                    <a href="https://www.taobao.com/market/peishi/yanjing.php">
+                                                        手表
+                                                    </a>
+                                                </li>
+                                                <li style="width: 33%;">
+                                                    <a href="https://www.taobao.com/market/peishi/yanjing.php">
+                                                        运动
+                                                    </a>
+                                                </li>
+                                                <li style="width: 33%;">
+                                                    <a href="https://www.taobao.com/market/peishi/yanjing.php">
+                                                        户外
+                                                    </a>
+                                                </li>
+                                                <li style="width: 33%;">
+                                                    <a href="https://www.taobao.com/market/peishi/yanjing.php">
+                                                        乐器
+                                                    </a>
+                                                </li>
+                                                <li style="width: 33%;">
+                                                    <a href="https://game.taobao.com">
+                                                        游戏
+                                                    </a>
+                                                </li>
+                                                <li style="width: 33%;">
+                                                    <a href="https://game.taobao.com">
+                                                        动漫
+                                                    </a>
+                                                </li>
+                                                <li style="width: 33%;">
+                                                    <a href="https://game.taobao.com">
+                                                        影视
+                                                    </a>
+                                                </li>
+                                                <li style="width: 33%;">
+                                                    <a href="https://game.taobao.com">
+                                                        美食
+                                                    </a>
+                                                </li>
+                                                <li style="width: 33%;">
+                                                    <a href="https://game.taobao.com">
+                                                        鲜花
+                                                    </a>
+                                                </li>
+                                                <li style="width: 33%;">
+                                                    <a href="https://game.taobao.com">
+                                                        宠物
+                                                    </a>
+                                                </li>
+                                                <li style="width: 33%;">
+                                                    <a href="https://s.taobao.com/search?spm=a21bo.50862.201867-main.31.5dcec6f7Nn7woQ&q=%E5%86%9C%E8%B5%84&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&ie=utf8&initiative_id=tbindexz_20170221">
+                                                        农资
+                                                    </a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>		
+                                    <div class="site-nav-sitemap-mod">
+                                        <h4 style="color:#d75696">阿里APP</h4>
+                                        <div class="site-nav-sitemap-mod-bd site-nav-sitemap-mod-bd3">
+                                            <ul>
+                                                <li style="width: 33%;">
+                                                    <a href="https://neiyi.taobao.com/?spm=a21bo.50862.201867-main.4.5dcec6f7Nn7woQ">
+                                                        内衣
+                                                    </a>	
+                                                </li>
+                                                <li style="width: 33%;">
+                                                    <a href="https://www.taobao.com/markets/xie/nvxie/index?spm=a21bo.50862.201867-main.5.5dcec6f7h8qQMT">
+                                                        鞋靴
+                                                    </a>
+                                                </li>
+                                                <li style="width: 33%;">
+                                                    <a href="https://www.taobao.com/markets/bao/xiangbao">
+                                                        箱包
+                                                    </a>
+                                                </li>
+                                                <li style="width: 33%;">
+                                                    <a href="https://www.taobao.com/markets/qbb/index">
+                                                        婴童
+                                                    </a>
+                                                </li>
+                                                <li style="width: 33%;">
+                                                    <a href="https://www.taobao.com/markets/3c/tbdc?spm=a21bo.2017.201867-main.12.176e11d9q751cK">
+                                                        家电
+                                                    </a>
+                                                </li>
+                                                <li style="width: 33%;">
+                                                    <a href="https://www.taobao.com/markets/3c/tbdc?spm=a21bo.2017.201867-main.12.176e11d9q751cK">
+                                                        数码
+                                                    </a>
+                                                </li>
+                                                <li style="width: 33%;">
+                                                    <a href="https://www.taobao.com/markets/3c/tbdc?spm=a21bo.2017.201867-main.12.176e11d9q751cK">
+                                                        手机
+                                                    </a>
+                                                </li>
+                                                <li style="width: 33%;">
+                                                    <a href="https://mei.taobao.com">
+                                                        美妆
+                                                    </a>
+                                                </li>
+                                                <li style="width: 33%;">
+                                                    <a href="https://www.taobao.com/market/peishi/zhubao.php">
+                                                        珠宝
+                                                    </a>
+                                                </li>
+                                                <li style="width: 33%;">
+                                                    <a href="https://www.taobao.com/market/peishi/yanjing.php">
+                                                        眼镜
+                                                    </a>
+                                                </li>
+                                                <li style="width: 33%;">
+                                                    <a href="https://www.taobao.com/market/peishi/yanjing.php">
+                                                        手表
+                                                    </a>
+                                                </li>
+                                                <li style="width: 33%;">
+                                                    <a href="https://www.taobao.com/market/peishi/yanjing.php">
+                                                        运动
+                                                    </a>
+                                                </li>
+                                                <li style="width: 33%;">
+                                                    <a href="https://www.taobao.com/market/peishi/yanjing.php">
+                                                        户外
+                                                    </a>
+                                                </li>
+                                                <li style="width: 33%;">
+                                                    <a href="https://www.taobao.com/market/peishi/yanjing.php">
+                                                        乐器
+                                                    </a>
+                                                </li>
+                                                <li style="width: 33%;">
+                                                    <a href="https://game.taobao.com">
+                                                        游戏
+                                                    </a>
+                                                </li>
+                                                <li style="width: 33%;">
+                                                    <a href="https://game.taobao.com">
+                                                        动漫
+                                                    </a>
+                                                </li>
+                                                <li style="width: 33%;">
+                                                    <a href="https://game.taobao.com">
+                                                        影视
+                                                    </a>
+                                                </li>
+                                                <li style="width: 33%;">
+                                                    <a href="https://game.taobao.com">
+                                                        美食
+                                                    </a>
+                                                </li>
+                                                <li style="width: 33%;">
+                                                    <a href="https://game.taobao.com">
+                                                        鲜花
+                                                    </a>
+                                                </li>
+                                                <li style="width: 33%;">
+                                                    <a href="https://game.taobao.com">
+                                                        宠物
+                                                    </a>
+                                                </li>
+                                                <li style="width: 33%;">
+                                                    <a href="https://s.taobao.com/search?spm=a21bo.50862.201867-main.31.5dcec6f7Nn7woQ&q=%E5%86%9C%E8%B5%84&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&ie=utf8&initiative_id=tbindexz_20170221">
+                                                        农资
+                                                    </a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="site-nav-sitemap-mod" style="border-right: 0;">
+                                        <h4 style="color:#2e9fdb">精彩推荐集</h4>
+                                        <div class="site-nav-sitemap-mod-bd site-nav-sitemap-mod-bd4">
+                                                <ul>
+                                                    <li style="width: 50%;">
+                                                        <a href="https://www.taobao.com/markets/nvzhuang/taobaonvzhuang?spm=a21bo.2017.754904949.1.5af911d9jTDKGI">
+                                                            女装
+                                                        </a>
+                                                    </li>
+                                                    <li style="width: 50%;">
+                                                        <a href="https://www.taobao.com/markets/nanzhuang/2017new?spm=a21bo.50862.201867-main.3.EECMuW">
+                                                            男装
+                                                        </a>
+                                                    </li>
+                                                    <li style="width: 50%;">
+                                                        <a href="https://neiyi.taobao.com/?spm=a21bo.50862.201867-main.4.5dcec6f7Nn7woQ">
+                                                            内衣
+                                                        </a>	
+                                                    </li>
+                                                    <li style="width: 50%;">
+                                                        <a href="https://www.taobao.com/markets/xie/nvxie/index?spm=a21bo.50862.201867-main.5.5dcec6f7h8qQMT">
+                                                            鞋靴
+                                                        </a>
+                                                    </li>
+                                                    <li style="width: 50%;">
+                                                        <a href="https://www.taobao.com/markets/bao/xiangbao">
+                                                            箱包
+                                                        </a>
+                                                    </li>
+                                                    <li style="width: 50%;">
+                                                        <a href="https://www.taobao.com/markets/qbb/index">
+                                                            婴童
+                                                        </a>
+                                                    </li>
+                                                    <li style="width: 50%;">
+                                                        <a href="https://www.taobao.com/markets/3c/tbdc?spm=a21bo.2017.201867-main.12.176e11d9q751cK">
+                                                            家电
+                                                        </a>
+                                                    </li>
+                                                    <li style="width: 50%;">
+                                                        <a href="https://www.taobao.com/markets/3c/tbdc?spm=a21bo.2017.201867-main.12.176e11d9q751cK">
+                                                            数码
+                                                        </a>
+                                                    </li>
+                                                    <li style="width: 50%;">
+                                                        <a href="https://www.taobao.com/markets/3c/tbdc?spm=a21bo.2017.201867-main.12.176e11d9q751cK">
+                                                            手机
+                                                        </a>
+                                                    </li>
+                                                    <li style="width: 50%;">
+                                                        <a href="https://mei.taobao.com">
+                                                            美妆
+                                                        </a>
+                                                    </li>
+                                                    <li style="width: 50%;">
+                                                        <a href="https://www.taobao.com/market/peishi/zhubao.php">
+                                                            珠宝
+                                                        </a>
+                                                    </li>
+                                                    <li style="width: 50%;">
+                                                        <a href="https://www.taobao.com/market/peishi/yanjing.php">
+                                                            眼镜
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </li>
+                </ul>
+            </div>
+    </div>
+    <!-- head部分 -->
+    <div id="bodey" class="warper" >
+        <div id="box_log" class="box_log1">
+            <img src="img/logo1.png" class="logo1">
+            <ul class="head_a">
+                <li class="ph-tab-item red-color-font ph-tab-item1">
+                    <a href="#">首页</a></li>
+                <li class="ph-tab-item">
+                    <a href="#">商家入驻</a>
+                    </li>
+                <li class="ph-tab-item">
+                    <a href="#">热点资讯</a>
+                    </li>
+                <li class="ph-tab-item">
+                    <a href="#">爱心扶贫</a>
+                    </li>
+                <li class="ph-tab-item">
+                    <a href="#">社会招聘</a>
+                    </li>
+                <li class="ph-tab-item">
+                    <a href="#">校园招聘</a>
+                    </li>
+                <li class="ph-tab-item">
+                    <a href="#">下载App</a>
+                    </li>
+                <li class="ph-tab-item">
+                    <a href="#">帮助中心</a>
+                    </li>
+                <li class="ph-tab-item">
+                    <a href="#">廉正举报</a>
+                    </li>
+                <li class="ph-tab-item ph-tab-item2">
+                    <a href="#">分享赚钱</a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+    <!-- body部分 -->
+    <div class="content">
+        <div class="header tb-header">
+            <a href="//www.taobao.com/">
+                淘宝网
+                <span class="header_img"></span>
+            </a>
+            <div class="search-panel search-hp-panel ks-switchable-content">
+                <div></div>
+                    <form action="//s.taobao.com/search" target="_top">
+                        <div class="search-button">
+                            <button class="btn-search" type="submit"></button>
+                        </div>
+                        <div class="search-panel-fields search-hp-fields search-common-panel">
+                            <input type="text" class="search-combobox-input">  
+                            <i></i>
+                        </div>
+                    </form>
+            </div>
+        </div>
+    </div>
+    <!--        底部-->
+	<div class="pdd-bottom-set">
+                <div class="pdd-bottom-body">
+                    <div class="pdd_bottom_left">
+                        <div class="pdd-code-app">
+                            <img src="img/pdd_guanzhu.png">
+                            <p>扫描二维码微信关注</p>
+                        </div>
+                        <div class="pdd-code-wechat">
+                            <img src="img/pdd_xiazai.png">
+                            <p>扫描二维码下载App</p>
+                        </div>
+                        <div class="pdd-code-service">
+                            <img src="img/pdd_mianfei.png">
+                            <p>微信扫码免费领取</p>
+                        </div>
+                    </div>
+                    <div class="pdd-bottom-right">
+                        <p class="pdd-bottom-text pdd-bottom-conter">联系我们</p>
+                        <p class="pdd-bottom-conter">客服&举报电话：021-61897088（推荐）</p>
+                        <p class="pdd-bottom-conter">400-8822-528</p>
+                        <p class="pdd-bottom-conter">商家热线：021-61897188</p>
+                        <p class="pdd-bottom-conter">客服时间：8:00-20:30</p>
+                        <p class="pdd-bottom-conter">上海寻梦信息技术有限公司</p>
+                    </div>
+                </div>
+                <div class="pdd-bottom-nav">
+                    <ul class="lasht">
+                        <li>商家入驻</li>
+                        <li>校园招聘</li>
+                        <li>关于我们</li>
+                        <li>帮助中心</li>
+                        <li>下载App</li>
+                        <li>消费者保障</li>
+                        <li>维权投诉指引</li>
+                        <li>廉政举报</li>
+                        <li>服务协议</li>
+                        <li>隐私政策</li>
+                        <li>征求意见</li>
+                        <li>Investor Relations</li>
+                    </ul>
+                </div>
+                <div class="copyright">
+                    <p class="copyright-bot">
+                        <span>Copyright 2015-2019 pinduoduo.com 版权所有</span>
+                        <span class="copyright-bot-right">(增值电信业务经营许可证：沪B2-20170215)</span>
+                    </p>
+                    <div class="pdd-foot-record">
+                        <a class="record-link" href="#">
+                            <span class="record-img"></span>
+                            <span>沪公网安备 31010502000392号</span>
+                        </a>
+                            <span>&nbsp;&nbsp;&nbsp;&nbsp;（沪）网械平台备字[2018]第00003号</span>
+                        <a class="record-link" href="#">
+                            <span>&nbsp;&nbsp;|&nbsp;&nbsp;营业执照</span>
+                        </a>
+                    </div>
+                </div>
+	</div>
+    <div class="foot-ft">
+            <ul class="lasht lastt">
+                <li>
+                    <img src="img/pdd_food3.png"">
+                </li>
+                <li>
+                    <img src="img/pdd_food2.jpg">
+                </li>
+                <li>
+                    <img src="img/pdd_food5.png">
+
+                </li>
+                <li>
+                    <img src="img/pdd_food1.jpg">
+                </li>
+                <li>
+                    <img src="img/pdd_food4.png">
+
+                </li>
+            </ul>
+    </div>
+</body>
+</html>	
+<script>
+// 二级菜单
+	
+var region = document.getElementsByClassName('site-nav-region')[0];
+// var region = document.getElementsByClassName('site-nav-menu-hd')[0];
+var menu = document.getElementsByClassName('site-nav-menu-ul')[0];
+var renturn = document.getElementsByClassName('pdd-nav-left')[0];
+var a = menu.getElementsByTagName("li");
+// console.log(a);
+//中国大陆
+renturn.onmouseover=function(){
+    menu.style.display="block";
+    renturn.style.background= "#fff";
+}
+renturn.onmouseout=function(){
+    menu.style.display="none";
+    renturn.style.background= "#f5f5f5";
+}
+for(let k =0;k<a.length;k++){
+        a[k].onclick=function(){
+            region.innerHTML=a[k].innerHTML;
+            menu.style.display="none";
+        }
+    }
+//我的淘宝
+var renturntwo = document.getElementsByClassName('pdd-nav-right')[0];
+var menutwo = document.getElementsByClassName('site-nav-menu-ul2')[0];
+var text=menutwo.getElementsByTagName("a")[1];
+console.log(renturntwo);
+renturntwo.onmouseover=function(){
+    menutwo.style.display="block";
+    renturntwo.style.background= "#fff";
+}
+renturntwo.onmouseout=function(){
+    menutwo.style.display="none";
+    renturntwo.style.background= "#f5f5f5";
+}
+//收藏夹
+var renturnthreen = document.getElementsByClassName('pdd-nav-right')[1];
+var menuthreen = document.getElementsByClassName('site-nav-menu-ul2')[1];
+renturnthreen.onmouseover=function(){
+    menuthreen.style.display="block";
+    renturnthreen.style.background= "#fff";
+}
+renturnthreen.onmouseout=function(){
+    menuthreen.style.display="none";
+    renturnthreen.style.background= "#f5f5f5";
+}
+    //千牛卖家中心
+var renturnfour = document.getElementsByClassName('pdd-nav-right')[2];
+var menufour = document.getElementsByClassName('site-nav-menu-ul2')[2];
+renturnfour.onmouseover=function(){
+    menufour.style.display="block";
+    renturnfour.style.background= "#fff";
+}
+renturnfour.onmouseout=function(){
+    menufour.style.display="none";
+    renturnfour.style.background= "#f5f5f5";
+}
+//联系客服
+var renturnfive = document.getElementsByClassName('pdd-nav-right')[3];
+var menufive = document.getElementsByClassName('site-nav-menu-ul2')[3];
+renturnfive.onmouseover=function(){
+    menufive.style.display="block";
+    renturnfive.style.background= "#fff";
+}
+renturnfive.onmouseout=function(){
+    menufive.style.display="none";
+    renturnfive.style.background= "#f5f5f5";
+}
+//网站导航
+var renturnseve = document.getElementsByClassName('pdd-nav-right')[4];
+var menuseve = document.getElementsByClassName('site-nav-menu-bd')[0];
+renturnseve.onmouseover=function(){
+    menuseve .style.display="block";
+    renturnseve.style.background= "#fff";
+}
+renturnseve.onmouseout=function(){
+    menuseve .style.display="none";
+    renturnseve.style.background= "#f5f5f5";
+}
+</script>
